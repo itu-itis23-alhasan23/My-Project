@@ -101,7 +101,7 @@ function checkCard(clickedSquareIndex, square) {
         }
     } else {
         alert("Game Over! Wrong sequence.");
-         
+        location.reload(); 
     }
 }
 
