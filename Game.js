@@ -96,12 +96,12 @@ function checkCard(clickedSquareIndex, square) {
 
         if (currentLetterIndex >= nameOrder.length) {
             alert("Game Won! Your score: " + currentScore);
-            location.reload();
+            
             
         }
     } else {
         alert("Game Over! Wrong sequence.");
-        location.reload(); 
+         
     }
 }
 
